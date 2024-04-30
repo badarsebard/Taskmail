@@ -1,3 +1,5 @@
+<img src="media/logo.png" width="200"/>
+
 # Taskmail
 Taskmail is an app that combines an email client with a Kanban-style task board. Emails and tasks are presented in the same way and can be managed together or even combined.
 
