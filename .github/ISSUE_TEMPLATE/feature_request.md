@@ -11,14 +11,14 @@ assignees: ''
 A clear and concise description of what you want.
 
 **How important is this feature**
-[ ] Must have
-[ ] Very Important
-[ ] Nice to have
+- [ ] Must have
+- [ ] Very Important
+- [ ] Nice to have
 
 **The OS you use**
-[ ] Windows
-[ ] MacOS
-[ ] Linux
+- [ ] Windows
+- [ ] MacOS
+- [ ] Linux
 
 **Additional context**
 Add any other context or screenshots about the feature request here.
