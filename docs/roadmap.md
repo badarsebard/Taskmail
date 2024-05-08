@@ -29,3 +29,7 @@
   - [ ] Cross-link with Todoist
 - [ ] Additional themes
 - [ ] Custom themes
+- [ ] Multiple open drafts
+- [ ] Window pop-outs
+  - [ ] Drafts
+  - [ ] Reading pane
