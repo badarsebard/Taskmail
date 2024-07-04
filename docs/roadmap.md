@@ -31,24 +31,31 @@ permalink: /roadmap
 - [ ] Card staging area (for inter-tab drag and drop)
 - [ ] Convert email to task
   - [ ] Drag and drop
+  {: style='list-style-type: none'}
+{: style='list-style-type: none'}
 
 ## Calendar Integration
 - [ ] Outlook calendar view
 - [ ] Schedule, manage and rsvp
 - [ ] Meeting as a card
+{: style='list-style-type: none'}
 
 ## Enhancements
 - [ ] Recurring tasks
 - [ ] Multi-level sub-cards
 - [ ] Cross-linked cards
   - [ ] Cross-link with Todoist
+  {: style='list-style-type: none'}
 - [ ] Additional themes
 - [ ] Custom themes
 - [ ] Multiple open drafts
 - [ ] Window pop-outs
   - [ ] Drafts
   - [ ] Reading pane
+  {: style='list-style-type: none'}
+{: style='list-style-type: none'}
 
 ## Improvements
 - [ ] Address fields use tags instead of raw strings
 - [ ] Connect address fields to contacts (people API)
+{: style='list-style-type: none'}
