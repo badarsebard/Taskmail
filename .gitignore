@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vscode/
+.DS_Store
+.idea
+.run
+.vite/
+
+local/
+build/
+bin/
+wailsjs/
+
+Gemfile.lock
+_site

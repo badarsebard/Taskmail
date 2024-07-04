@@ -1,0 +1,167 @@
+# Component Layouts
+## App
+-----------------------------------------
+|                 Banner                |
+-----------------------------------------
+|       |       |        Canvas         |
+|   S   |   M   |                       |
+|   i   |   a   |                       |
+|   d   |   i   |                       |
+|   e   |   l   |                       |
+|   b   |   b   |                       |
+|   a   |   o   |                       |
+|   r   |   x   |                       |
+|       |       |                       |
+-----------------------------------------
+
+## Sidebar (Expanded)
+---------------
+| <i>         |         // expand/collapse icon
+|             |
+| Accounts    |         // accounts section label
+| <i> <user>  |         // user icon | account name
+| <i> <user>  |         // user icon | account name
+| + Add       |         // plus icon | Add
+|             |
+| Folders     |         // folders section label
+| <i> Inbox   |         // inbox icon | folder name
+| <i> Sent    |         // sent icon | folder name
+| <i> Drafts  |         // drafts icon | folder name
+| <i> Trash   |         // trash icon | folder name
+| <i> Archive |         // archive icon | folder name
+|             |
+|             |
+|             |
+|             |
+---------------
+
+## Sidebar (Collapsed)
+-------
+| <i> |                 // expand/collapse icon
+|     |
+| <i> |                 // user icon
+| <i> |                 // user icon
+|  +  |                 // plus icon
+|     |
+| <i> |                 // inbox icon
+| <i> |                 // sent icon
+| <i> |                 // drafts icon
+| <i> |                 // trash icon
+| <i> |                 // archive icon
+|     |
+|     |
+|     |
+|     |
+-------
+
+## Mailbox
+---------------
+| search bar  |
+|             |
+| Card        |
+| Card        |
+| Card        |
+|             |
+|             |
+|             |
+|             |
+|             |
+|             |
+|             |
+|             |
+|             |
+|             |
+|             |
+|             |
+---------------
+
+## Canvas  (Board)
+-------------------------------------
+| Columns | Expanded | C | + | Done |
+|         |          | o | A |      |
+|  Card   |   Card   | l | d | Card |
+|  Card   |   Card   | l | d | Card |
+|  Card   |          | a |   | Card |
+|         |          | p | B | Card |
+|         |          | s | u |      |
+|         |          | e | t |      |
+|         |          | d | t |      |
+|         |          |   | o |      |
+|         |          |   | n |      |
+|         |          |   |   |      |
+-------------------------------------
+
+## Canvas (Details)
+-------------------------------------
+| Header                            |
+|-----------------------------------|
+| Track                             |
+|-----------------------------------|
+| Conversation                      |
+|   Message 1                       |
+|   Message 2                       |
+|   Message 3                       |
+|-----------------------------------|
+
+## Card
+----------------------------------
+| <i> From                   | H |      // icon is FROM initials or clipboard, Hover Palette (HoP) overlays timestamp and appears on card hover
+|  |  Subject...         Time| o |      // light vertical bar between top and bottom icons only when bottom icon displays
+| <i> Preview                | P |      // FROM, Subject, and Time in wrapped flexbox, FROM for email only
+----------------------------------      // bottom icon is paperclip only when there is an attachment
+| (tag color) (tag color)        |      // tags, narrow pills
+----------------------------------
+| (Snooze)  (Due)  (to-dos m/n)  |      // flex box
+| (notes #) (group #)            |
+----------------------------------
+| + Add To-do                    |      // add to-do
+| To-do 1                        |      // to-dos
+----------------------------------
+| + Add Note                     |      // add note
+| Note 1                         |      // notes
+| Note 2                         |
+----------------------------------
+|*| |----------------------------|      // |*| is a vertical colored (cyan?) bar
+|*| | Sub-card 1                 |      // sub-cards
+|*| |                            |      // no grouping in sub-cards
+|*| |                            |      // no snooze in sub-cards
+|*| |----------------------------|
+|*| |----------------------------|
+|*| | Sub-card 2                 |
+|*| |                            |
+|*| |                            |
+|*| |----------------------------|
+
+
+
+## Card (Untracked) (!Hover)
+-------------------------------------
+| <i> FROM                          |
+|     Subject...             Time   |
+|     Preview                       |
+-------------------------------------
+
+## Card (Tracked) (!Hover)
+-------------------------------------
+| <i> FROM                          |
+|     Subject...             Time   |
+|     Preview                       |
+-------------------------------------
+| <i> Column Name                   |
+-------------------------------------
+
+## Card (Untracked) (Hover)
+-------------------------------------
+| <i> FROM                    | <i> |   // mark done
+|     Subject...            Ti| <i> |   // move to column | timestamp covered
+|     Preview                 | <i> |   // delete
+-------------------------------------
+
+## Card (Tracked) (Hover)
+-------------------------------------
+| <i> FROM                    | <i> |   // mark seen
+|     Subject...            Ti|     |   // timestamp covered
+|     Preview                 | <i> |   // locate card
+-------------------------------------
+| <i> Column Name                   |
+-------------------------------------

@@ -1,0 +1,59 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Taskmail
+description: >-
+  Kanban-style email client
+
+github_username: badarsebard
+gh_sponsor: badarsebard
+domain: taskmail.-is-local.org
+url: "https://taskmail.is-local.org"
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      hide_hero: true
+
+images: "/assets/images"
+favicon: "/assets/images/favicon-16x16.png"
+
+feed:
+  disable_in_development: true
+google_analytics: false
+
+# Build settings
+theme: bulma-clean-theme
+fixed_navbar: top
+
+plugins:
+  - jemoji
+#  - jekyll-feed
+
+include:
+  - .well-known
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

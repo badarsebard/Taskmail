@@ -1,5 +1,9 @@
-<img src="media/logo.png" width="200"/>
+---
+title: Taskmail
+---
 
+<img src="assets/images/taskmail_demo.png" alt="Taskmail demo screenshot" style="border: 2px solid grey;">
+ 
 Taskmail is an app that combines an email client with a Kanban-style task board. Emails and tasks are presented in the same way and can be managed together or even combined.
 
 ## Active Development

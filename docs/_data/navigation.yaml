@@ -1,0 +1,9 @@
+- name: Roadmap
+  link: /roadmap
+  external: false
+- name: Data Schema
+  link: /schema
+  external: false
+- name: GitHub
+  link: https://github.com/badarsebard/Taskmail
+  external: true
